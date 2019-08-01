@@ -14,6 +14,11 @@
   <Obstruction>
     <Static width="22.0" depth="26.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_marine
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/spartans/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
