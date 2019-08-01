@@ -10,8 +10,37 @@
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
         <prop actor="props/units/capes/pelt.xml" attachpoint="root"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="tunic-illyrian-1a">
       <textures>
-        <texture file="skeletal/hele_tunic.dds" name="baseTex"/>
+        <texture file="skeletal/illyr_tunic_1_basic_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-illyrian-1b">
+      <textures>
+        <texture file="skeletal/illyr_tunic_1_basic_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-illyrian-1c">
+      <textures>
+        <texture file="skeletal/illyr_tunic_1_basic_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-illyrian-1d">
+      <textures>
+        <texture file="skeletal/illyr_tunic_1_basic_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-illyrian-1e">
+      <textures>
+        <texture file="skeletal/illyr_tunic_1_basic_e.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-illyrian-1f">
+      <textures>
+        <texture file="skeletal/illyr_tunic_1_basic_f.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
