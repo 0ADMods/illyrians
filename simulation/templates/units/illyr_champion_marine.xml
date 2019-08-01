@@ -5,7 +5,7 @@
     <Lang>greek</Lang>
     <GenericName>Illyrian Marine</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/athen_champion_marine.png</Icon>
+    <Icon>units/illyr_champion_marine.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/illyrians/infantry_swordsman_c.xml</Actor>

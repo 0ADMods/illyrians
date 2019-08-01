@@ -5,7 +5,7 @@
     <Lang>greek</Lang>
     <GenericName>Illyrian Hoplite</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/spart_champion_infantry_spear.png</Icon>
+    <Icon>units/illyr_champion_infantry_spear.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/illyrians/infantry_spearman_c.xml</Actor>

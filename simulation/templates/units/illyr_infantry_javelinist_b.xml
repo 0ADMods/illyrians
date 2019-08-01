@@ -12,7 +12,7 @@
     <SelectionGroupName>units/illyr_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Illyrian Skirmisher</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/spart_infantry_javelinist.png</Icon>
+    <Icon>units/illyr_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/illyr_infantry_javelinist_a</Entity>

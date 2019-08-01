@@ -9,7 +9,7 @@
     <Lang>greek</Lang>
     <GenericName>Agron</GenericName>
     <SpecificName>Agron</SpecificName>
-    <Icon>units/athen_hero_themistocles.png</Icon>
+    <Icon>units/illyr_hero_agron.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/illyrians/hero_infantry_swordsman_agron.xml</Actor>
