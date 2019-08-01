@@ -15,10 +15,10 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_hero_agron
-      units/{civ}_champion_infantry_spear_barracks
+      units/{civ}_champion_infantry_spear
       -units/{civ}_siege_oxybeles_packed
       -units/{civ}_siege_lithobolos_packed
-      -units/{civ}_siege_ram
+      units/{civ}_siege_ram
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

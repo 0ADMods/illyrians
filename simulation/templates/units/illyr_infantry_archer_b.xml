@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/illyr_theatron
+      structures/illyr_royal_stoa
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>illyr</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/illyr_infantry_archer_b</SelectionGroupName>
+    <GenericName>Illyrian Archer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/illyr_infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/illyr_infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

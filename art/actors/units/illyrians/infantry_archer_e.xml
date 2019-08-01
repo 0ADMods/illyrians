@@ -6,9 +6,13 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/thracian_oval.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear_reverse.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/weap_greek_bow.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/quiver_greek_back.xml" attachpoint="back"/>
       </props>
+      <textures>
+        <texture file="skeletal/hele_iar_e.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -19,22 +23,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="lamellar-1a">
+    <variant frequency="1" name="epilektoi-linothorax-5">
       <textures>
-        <texture file="skeletal/hele_lamellar_1_a.png" name="baseTex"/>
-        <texture file="skeletal/hele_lamellar_1_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="linothorax-lamellar-1a">
-      <textures>
-        <texture file="skeletal/hele_linothorax_lamelar_1_a.png" name="baseTex"/>
-        <texture file="skeletal/hele_linothorax_lamellar_1_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="linothorax-lamellar-1b">
-      <textures>
-        <texture file="skeletal/hele_linothorax_lamelar_1_b.png" name="baseTex"/>
-        <texture file="skeletal/hele_linothorax_lamellar_1_spec.png" name="specTex"/>
+        <texture file="skeletal/hele_epilektoi_5.png" name="baseTex"/>
+        <texture file="skeletal/no_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="cardiopylax-2a">
@@ -43,9 +35,27 @@
         <texture file="skeletal/no_spec.png" name="specTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="illyr-linothorax-1a">
+      <textures>
+        <texture file="skeletal/illyr_linothorax_1_a.png" name="baseTex"/>
+        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="illyr-linothorax-1b">
+      <textures>
+        <texture file="skeletal/illyr_linothorax_1_b.png" name="baseTex"/>
+        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="illyr-linothorax-1c">
+      <textures>
+        <texture file="skeletal/illyr_linothorax_1_c.png" name="baseTex"/>
+        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
-    <variant file="biped/base_hoplite.xml"/>
+    <variant file="biped/base_archer_ready.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -54,6 +64,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_archer.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
