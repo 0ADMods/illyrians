@@ -1,0 +1,9 @@
+{
+	"name": "illyrians",
+	"label": "0 A.D. Illyrians",
+	"version": "1.0.0",
+	"url": "https://github.com/0ADMods/illyrians",
+	"description": "Illyrian faction for 0 A.D.",
+	"dependencies": ["0ad>=0.0.24"],
+	"type": "Factions"
+}
