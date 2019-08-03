@@ -2,8 +2,8 @@
 	"Code":"illyr",
 	"Culture":"hele",
 	"Name":"Illyrians",
-	"Emblem":"session/portraits/emblems/emblem_spartans.png",
-	"History":"The Illyrian tribes of the Balkan Peninsula.",
+	"Emblem":"session/portraits/emblems/emblem_illyrians.png",
+	"History":"The Southern Illyrian tribes of the Balkan Peninsula.",
 	"Music":[
 			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
 			{"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
@@ -21,31 +21,22 @@
 			"Heroes":
 			[
 				{
-					"Name":"Chieftain I",
+					"Name":"Agron",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Template."
-				},
-				{
-					"Name":"Chieftain II",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Template."
-				},
-				{
-					"Name":"Chieftain III",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Template."
+					"History":"King of the Ardiaei."
 				}
 			]
 		}
 	],
 	"CivBonuses":
 	[
+		{
+			"Name": "Piracy",
+			"History": "The Illyrians are renowned for practicing piracy.",
+			"Description": "Units cost 20% less metal."
+		}
 	],
 	"TeamBonuses":
 	[
@@ -65,7 +56,7 @@
 	"WallSets":
 	[
 		"other/wallset_palisade",
-		"structures/spart_wallset_stone"
+		"structures/illyr_wallset_stone"
 	],
 	"StartEntities":
 	[

@@ -1,0 +1,12 @@
+{
+	"genericName": "Piracy",
+	"autoResearch": true,
+	"description": "The Illyrians are renowned for practicing piracy.",
+	"requirements": { "any": [{ "civ": "illyr" }] },
+	"icon": "metal_pot.png",
+	"tooltip": "Units cost 20% less metal",
+	"modifications": [
+		{ "value": "Cost/Resources/metal", "multiply": 0.8 }
+	],
+	"affects": ["Infantry"]
+}
