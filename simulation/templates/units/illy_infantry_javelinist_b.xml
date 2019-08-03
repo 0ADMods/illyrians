@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelinist">
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrian Skirmisher</GenericName>
+    <Icon>units/illy_infantry_javelinist.png</Icon>
+    <SelectionGroupName>units/illy_infantry_javelinist_b</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/illy_infantry_javelinist_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

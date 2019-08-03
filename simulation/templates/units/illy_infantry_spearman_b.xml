@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrian Spearman</GenericName>
+    <Icon>units/illy_infantry_spearman.png</Icon>
+    <SelectionGroupName>units/illy_infantry_spearman_b</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/illy_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

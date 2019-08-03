@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_trireme">
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrian Trireme</GenericName>
+    <Icon>units/hele_ship_trireme.png</Icon>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/illy_champion_marine
+    </Entities>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+	</ProductionQueue>  
+  <VisualActor>
+    <Actor>structures/spartans/trireme.xml</Actor>
+  </VisualActor>
+</Entity>
