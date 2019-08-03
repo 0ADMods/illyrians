@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/iber_hero_caros_2
+  </Auras>
+  <Identity>
+    <Civ>illyr</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Bardylis I</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/illyr_hero_bardylis.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/illyrians/hero_cavalry_spearman_bardylis_m.xml</Actor>
+  </VisualActor>
+</Entity>

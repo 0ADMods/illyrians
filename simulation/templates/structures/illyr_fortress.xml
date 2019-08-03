@@ -15,6 +15,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_hero_agron
+      units/{civ}_hero_bardylis
       units/{civ}_champion_infantry_spear
       -units/{civ}_siege_oxybeles_packed
       -units/{civ}_siege_lithobolos_packed
