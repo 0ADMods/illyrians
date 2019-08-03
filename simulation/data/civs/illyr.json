@@ -35,7 +35,7 @@
 		{
 			"Name": "Piracy",
 			"History": "The Illyrians are renowned for practicing piracy.",
-			"Description": "Units cost 20% less metal."
+			"Description": "Infantry −20% metal cost."
 		}
 	],
 	"TeamBonuses":
