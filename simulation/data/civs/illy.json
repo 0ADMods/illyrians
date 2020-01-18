@@ -4,22 +4,30 @@
 	"Name": "Illyrians",
 	"Emblem": "session/portraits/emblems/emblem_illyrians.png",
 	"History": "The Southern Illyrian tribes of the Balkan Peninsula.",
-	"Music":[
-			{ "File": "Helen_Leaves_Sparta.ogg", "Type": "peace" },
-			{ "File": "Peaks_of_Atlas.ogg", "Type": "peace" },
-			{ "File": "Forging_a_City-State.ogg", "Type": "peace" },
-			{ "File": "The_Hellespont.ogg", "Type": "peace" }
-		],
-	"Factions":
-	[
+	"Music": [
+		{
+			"File": "Helen_Leaves_Sparta.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
 		{
 			"Name": "Illyrians",
 			"Description": "",
-			"Technologies":
-			[
-			],
-			"Heroes":
-			[
+			"Technologies": [],
+			"Heroes": [
 				{
 					"Name": "Agron",
 					"Class": "",
@@ -30,27 +38,20 @@
 			]
 		}
 	],
-	"CivBonuses":
-	[
+	"CivBonuses": [
 		{
 			"Name": "Piracy",
 			"History": "The Illyrians are renowned for practicing piracy.",
 			"Description": "Infantry −20% metal cost."
 		}
 	],
-	"TeamBonuses":
-	[
-	],
-	"Structures":
-	[
-	],
-	"WallSets":
-	[
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [
 		"other/wallset_palisade",
 		"structures/illy_wallset_stone"
 	],
-	"StartEntities":
-	[
+	"StartEntities": [
 		{
 			"Template": "structures/illy_civil_centre"
 		},
@@ -70,8 +71,7 @@
 			"Template": "units/illy_cavalry_javelinist_b"
 		}
 	],
-	"Formations":
-	[
+	"Formations": [
 		"special/formations/null",
 		"special/formations/box",
 		"special/formations/column_closed",
@@ -84,8 +84,7 @@
 		"special/formations/battle_line",
 		"special/formations/phalanx"
 	],
-	"AINames":
-	[
+	"AINames": [
 		"Artas",
 		"Agron",
 		"Bardylis",
@@ -99,9 +98,8 @@
 		"Pleurias",
 		"Scerdilaidas"
 	],
-	"SkirmishReplacements":
-	{
-		"skirmish/structures/default_house_10" : "structures/illy_house",
+	"SkirmishReplacements": {
+		"skirmish/structures/default_house_10": "structures/illy_house",
 		"skirmish/units/default_cavalry": "units/illy_cavalry_javelinist_b",
 		"skirmish/units/default_infantry_melee_b": "units/illy_infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/illy_infantry_javelinist_b"
