@@ -6,50 +6,38 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/ptol_thureos_galatian_b.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear_reverse.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/gaul_shield_spear_oval_b_01.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic-illyrian-1a">
+    <variant frequency="1" name="Illy-Tunic-Basic-01-01">
       <textures>
-        <texture file="skeletal/illyr_tunic_1_basic_a.png" name="baseTex"/>
+        <texture file="skeletal/illy/tunic_basic_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-illyrian-1b">
+    <variant frequency="1" name="Illy-Tunic-Basic-01-02">
       <textures>
-        <texture file="skeletal/illyr_tunic_1_basic_b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-illyrian-1c">
-      <textures>
-        <texture file="skeletal/illyr_tunic_1_basic_c.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-illyrian-1d">
-      <textures>
-        <texture file="skeletal/illyr_tunic_1_basic_d.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-illyrian-1e">
-      <textures>
-        <texture file="skeletal/illyr_tunic_1_basic_e.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="tunic-illyrian-1f">
-      <textures>
-        <texture file="skeletal/illyr_tunic_1_basic_f.png" name="baseTex"/>
+        <texture file="skeletal/illy/tunic_basic_01_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_hoplite.xml"/>
+    <variant file="biped/base_spearman_shield_relax_celt.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

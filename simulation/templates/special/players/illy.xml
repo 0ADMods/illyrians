@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrians</GenericName>
+    <History>The Southern Illyrian tribes.</History>
+    <Icon>emblems/emblem_celts.png</Icon>
+  </Identity>
+</Entity>

@@ -1,88 +1,33 @@
 {
 	"Code": "illy",
 	"Culture": "illy",
-	"Name": "Illyrians",
-	"Emblem": "session/portraits/emblems/emblem_illyrians.png",
-	"History": "The Southern Illyrian tribes of the Balkan Peninsula.",
-	"Music": [
-		{
-			"File": "Helen_Leaves_Sparta.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Peaks_of_Atlas.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Forging_a_City-State.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "The_Hellespont.ogg",
-			"Type": "peace"
-		}
+	"Music":[
+		{ "File": "Harvest_Festival.ogg", "Type": "peace" },
+		{ "File": "Sunrise.ogg", "Type": "peace" }
 	],
-	"Factions": [
-		{
-			"Name": "Illyrians",
-			"Description": "",
-			"Technologies": [],
-			"Heroes": [
-				{
-					"Name": "Agron",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "King of the Ardiaei."
-				}
-			]
-		}
-	],
-	"CivBonuses": [
-		{
-			"Name": "Piracy",
-			"History": "The Illyrians are renowned for practicing piracy.",
-			"Description": "Infantry −20% metal cost."
-		}
-	],
-	"TeamBonuses": [],
-	"Structures": [],
+	"CivBonuses": [],
 	"WallSets": [
-		"other/wallset_palisade",
-		"structures/illy_wallset_stone"
+		"structures/illy/wallset_stone"
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/illy_civil_centre"
+			"Template": "structures/illy/civil_centre"
 		},
 		{
-			"Template": "units/illy_support_female_citizen",
+			"Template": "units/illy/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/illy_infantry_spearman_b",
+			"Template": "units/illy/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/illy_infantry_javelinist_b",
+			"Template": "units/illy/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/illy_cavalry_javelinist_b"
+			"Template": "units/illy/cavalry_spearman_b"
 		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/phalanx"
 	],
 	"AINames": [
 		"Artas",
@@ -95,14 +40,10 @@
 		"Longarus",
 		"Monunius",
 		"Opis",
-		"Pleurias",
 		"Scerdilaidas"
 	],
 	"SkirmishReplacements": {
-		"skirmish/structures/default_house_10": "structures/illy_house",
-		"skirmish/units/default_cavalry": "units/illy_cavalry_javelinist_b",
-		"skirmish/units/default_infantry_melee_b": "units/illy_infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/illy_infantry_javelinist_b"
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }
